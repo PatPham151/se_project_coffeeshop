@@ -21,16 +21,14 @@
     />
   </head>
   
+  <div class="page">
   <body>
-    <div class="page">
       <!---------Header--------->
       <header class="header">
         <nav class="nav">
-          <img
-            src="./images/logo_coffeeshop_dark.svg"
-            alt="coffee shop logo"
-            class="nav__logo"  <!-- Updated to match BEM -->
-          />
+          
+          <img src="./images/logo_coffeeshop_dark.svg" alt="coffee shop logo" class="nav_logo" />
+
           <ul>
             <li><a class="nav__links" href="#recipes">Recipes</a></li>
             <li><a class="nav__links" href="#reservation">Reservation</a></li>
@@ -51,6 +49,8 @@
       </header>
 
       <!---------Recipes--------->
+
+      <main class="content">
       <section class="recipes">
         <h1>Recipes</h1>
         <p>Check out some recipes we've collected for your home-brewing convenience.</p>
@@ -127,13 +127,17 @@
       </section>
 
       <!---------Contacts--------->
-      <footer class="contacts">
-        <img
-          src="./images/logo_coffeeshop_light.svg"
-          alt="White Logo"
-          class="footer__logo" 
-        />
+        <footer class="footer">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="White Logo"
+              class="footer__logo" 
+            />
+          </footer>
+          
       </footer>
-    </div>
-  </body>
+
+      </main>
+    </body>
+  </div>
 </html>

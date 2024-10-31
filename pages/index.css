@@ -15,13 +15,10 @@ body {
 
 /* Page Container */
 .page {
-  min-width: 1100px;
-  max-width: 1100px;
-  margin: auto;
-  font-family: "noto serif", inter, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
+    max-width: 1200px; /* Ensure this matches project specifications */
+    margin: 0 auto; /* Center the page */
+    padding: 20px; /* Add padding */
+  }
 
 /* Header Styles */
 .header {
