@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <description></description>
+    <author></author>
+    <keywords></keywords>
+    <title>Coffee Shop</title>
+
+    <meta name="description" content="A coffee shop page." />
+    <meta name="author" content="Pat Pham" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, coffee, drinks, coffee"
+    />
+
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--Body Below-->
+  <body>
+    <div class="page>">
+      <!---------Header--------->
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="coffe shop logo"
+            class="nav_logo"
+          />
+          <ul>
+            <li>
+              <a class="nav__links" href="#recipes">recipes</a>
+            </li>
+            <li>
+              <a class="nav__links" href="#reservation">reservation</a>
+            </li>
+            <li>
+              <a class="nav__links" href="#menu">menu</a>
+            </li>
+            <li>
+              <a class="nav__links" href="#about">about</a>
+            </li>
+            <li>
+              <a class="nav__links" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title">specialty coffee</h1>
+        <p>
+          welcome to our studyzone! We've got the cofee to energize you and the
+          cozy vibes to help you get creative
+        </p>
+        <p>Hours</p>
+        <ul class="hours">
+          <li>Monday - Friday (10;00 - 19;00)</li>
+          <li>Saturday - Sunday (11:00-18:00)</li>
+        </ul>
+
+        <p class="header__address">
+          200 Success Avenue, The Town of Triple Peaks
+        </p>
+      </header>
+
+      <!---------Recipes--------->
+      <section class="recipes">
+        <h1>Recipes</h1>
+        <p>
+          Check out some recipies we've collected for your home-brewing
+          convenience
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VIDEO_ID"
+          frameborder="0"
+          allowfullscreen
+          >Aeropress recipe ~5min</iframe
+        >
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VIDEO_ID"
+          frameborder="0"
+          allowfullscreen
+          >French Press recipe ~5min</iframe
+        >
+      </section>
+      <!---------Reservations--------->
+      <section class="reservation">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="no.Guests">Number of Guests:</label>
+          <input type="int" id="no.Guests" name="no.Guests" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="date">Choose a date:</label>
+          <input type="date" id="date" name="date" />
+
+          <button type="submit">Book a table</button>
+
+          <input type="checkbox" name="terms" value="yes" />
+          <label for="checkbox">I agree with the terms</label>
+        </form>
+      </section>
+      <!---------Menu--------->
+      <section class="menu"></section>
+      <h3>Menu</h3>
+      <p>We brew coffee from locally roasted</p>
+
+      <h3>Filter</h3>
+      <ul>
+        <li>regular</li>
+        <li>large</li>
+      </ul>
+
+      <h3>Espresso</h3>
+      <ul>
+        <li>machiato</li>
+        <li>mocha</li>
+        <li>sunrise</li>
+      </ul>
+
+      <h3>Baked Goods</h3>
+      <ul>
+        <li>Almond Croisant</li>
+        <li>Cookie</li>
+      </ul>
+
+      <!---------About--------->
+      <section class="about">
+        <h4>About the coffee shop</h4>
+        <p>Our coffee shop is located in the triple peaks libary</p>
+      </section>
+
+      <!---------About--------->
+      <footer class="contacts">
+        <img
+          src="./images/logo_coffeeshop_light.svg"
+          alt="White Logo"
+          class="footer__logo"
+        />
+      </footer>
+    </div>
+  </body>
+</html>
