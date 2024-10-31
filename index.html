@@ -20,124 +20,16 @@
       rel="stylesheet"
     />
   </head>
-  
-  <div class="page">
   <body>
-      <!---------Header--------->
-      <header class="header">
-        <nav class="nav">
-          
-          <img src="./images/logo_coffeeshop_dark.svg" alt="coffee shop logo" class="nav_logo" />
-
-          <ul>
-            <li><a class="nav__links" href="#recipes">Recipes</a></li>
-            <li><a class="nav__links" href="#reservation">Reservation</a></li>
-            <li><a class="nav__links" href="#menu">Menu</a></li>
-            <li><a class="nav__links" href="#about">About</a></li>
-            <li><a class="nav__links" href="#contacts">Contacts</a></li>
-          </ul>
-        </nav>
-
-        <h1 class="header__title">Specialty Coffee</h1>
-        <p>Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
-        <p>Hours:</p>
-        <ul class="hours">
-          <li>Monday - Friday: 10:00 - 19:00</li>
-          <li>Saturday - Sunday: 11:00 - 18:00</li>
-        </ul>
-        <p class="header__address">200 Success Avenue, The Town of Triple Peaks</p>
-      </header>
-
-      <!---------Recipes--------->
-
-      <main class="content">
-      <section class="recipes">
-        <h1>Recipes</h1>
-        <p>Check out some recipes we've collected for your home-brewing convenience.</p>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/VIDEO_ID"
-          frameborder="0"
-          allowfullscreen
-          title="Aeropress recipe ~5min"
-        ></iframe>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/VIDEO_ID"
-          frameborder="0"
-          allowfullscreen
-          title="French Press recipe ~5min"
-        ></iframe>
-      </section>
-
-      <!---------Reservations--------->
-      <section class="reservation">
-        <h2>Contact Us</h2>
-        <form action="/submit" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="noGuests">Number of Guests:</label>
-          <input type="number" id="noGuests" name="noGuests" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="date">Choose a date:</label>
-          <input type="date" id="date" name="date" />
-
-          <button type="submit">Book a table</button>
-
-          <input type="checkbox" id="terms" name="terms" value="yes" />
-          <label for="terms">I agree with the terms</label>
-        </form>
-      </section>
-
-      <!---------Menu--------->
-      <section class="menu">
-        <h3>Menu</h3>
-        <p>We brew coffee from locally roasted beans.</p>
-
-        <h3>Filter</h3>
-        <ul>
-          <li>Regular</li>
-          <li>Large</li>
-        </ul>
-
-        <h3>Espresso</h3>
-        <ul>
-          <li>Machiato</li>
-          <li>Mocha</li>
-          <li>Sunrise</li>
-        </ul>
-
-        <h3>Baked Goods</h3>
-        <ul>
-          <li>Almond Croissant</li>
-          <li>Cookie</li>
-        </ul>
-      </section>
-
-      <!---------About--------->
-      <section class="about">
-        <h4>About the Coffee Shop</h4>
-        <p>Our coffee shop is located in the Triple Peaks library.</p>
-      </section>
-
-      <!---------Contacts--------->
-        <footer class="footer">
-            <img
-              src="./images/logo_coffeeshop_light.svg"
-              alt="White Logo"
-              class="footer__logo" 
-            />
-          </footer>
-          
-      </footer>
-
-      </main>
-    </body>
-  </div>
+    <div class="page">
+        <header class="header"></header>
+        <main class="content">
+            <section class="recipes"></section>
+            <section class="reservation"></section>
+            <section class="menu"></section>
+            <section class="about"></section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
