@@ -14,11 +14,11 @@
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
-    padding: 30px 80px 40px;
     position: relative;
     box-sizing: border-box;
     background-image: url(../images/background_header.svg);
     background-size: cover;
+    padding: 30px 0px 40px;
 }
 
 .nav{
@@ -29,6 +29,9 @@
 .nav__logo{
     width: 105px;
     height: 39px;
+    position: relative;
+    left: 30px; 
+    top: 30px;
 }
 
 .nav__links{
@@ -69,6 +72,8 @@
     font-size: 60px;
     line-height: 72px;
     color: #3F96F3;
+    position: relative;
+    left: 80px;
 }
 
 .line-break{
@@ -88,6 +93,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    position: relative;
+    left: 80px;
 }
 
 .header__image{
@@ -109,19 +116,21 @@
     box-sizing: border-box;
     list-style-type: none;
     color: #6F6F6F;
-    padding: 0;
 }
 
 .header__footer_hours{
     list-style: none;
     margin: 0px;
-    padding: 0px;
+    position: relative;
+    bottom: 0px;
+    left: 40px;
 }
 
 .header__address{
     position: absolute;
     right: 80px;
     bottom: 40px;
+    margin: 0;
 }
 
 .content{}
@@ -130,7 +139,7 @@
     background-image: url(../images/background_recipes.svg);
     background-position: center;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-color: #0A2750;
     height: 100vh;
     min-height: 720px;
@@ -185,4 +194,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    display: flex;
+    justify-content: space-between;
 }
