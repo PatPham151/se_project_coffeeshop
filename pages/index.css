@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 
-.nav__logo{
+.header__logo{
     width: 105px;
     height: 39px;
     position: relative;
@@ -134,6 +134,7 @@
 }
 
 .content{}
+
 
 .recipes{
     background-image: url(../images/background_recipes.svg);
