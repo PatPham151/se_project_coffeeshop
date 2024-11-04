@@ -174,7 +174,7 @@
     color: #ffffff;
 }
 
-.recipes__video{
+.recipes__videos{
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -183,7 +183,7 @@
     list-style: none;
 }
 
-.content__recipes_video{
+.recipes__iframe{
     width: 480px;
     height: 273px;
 }
