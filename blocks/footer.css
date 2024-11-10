@@ -1,0 +1,66 @@
+@keyframes social-hover {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+
+.footer {
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    color: white;
+    padding: 60px 80px;
+  }
+  
+  .footer__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 108px; 
+  }
+  
+  .footer__column_content_social {
+    margin-left: 100px;
+  }
+  .footer__logo {
+    width: 105px;
+    height: 39px;
+  }
+  .footer__list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  .footer__list-item {
+    margin: 0 0 16px;
+  }
+  .footer__list-item:last-child{
+    margin-bottom: 0;
+  }
+  .footer__column-heading {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__column-link {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+  }
+  .footer__column-link:hover{
+    color: #c1c1c1;
+    animation: social-hover 0.3s ease-in-out forwards;
+  }
+  .footer__social-icon {
+    height: 16px;
+    width: 16px;
+  }
+  .footer__copyright {
+    margin: 0;
+  }

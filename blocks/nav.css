@@ -1,0 +1,45 @@
+@keyframes hover{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+    }
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex; 
+    align-items: flex-start;
+    column-gap: 20px;
+    list-style-type: none;
+    position: absolute;
+    right: 80px;
+    top: 30px;
+}
+
+.nav__link:hover{
+    animation: hover .3s ease-in-out forwards; 
+}
+
+.nav__link{
+    color: black;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav__link:hover{
+    color: blue;
+}
