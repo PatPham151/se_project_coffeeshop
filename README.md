@@ -16,6 +16,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 Add your ideas here :I think I would've made the login actually functionable. As it is right now the data goes nowhere. 
 
+- nov 11: I was unable to diagnose the problem you sent me screen shot of as it was functioning properly on my side and well as when I made the repository public and let a tutor view it. Their solution was to resubmit. Thank you. 
+
 
 Project name.
 Project description (i.e. describe the functionality and the technologies used).
