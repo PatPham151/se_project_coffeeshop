@@ -23,8 +23,10 @@
   }
   
   .footer__column_content_social {
-    margin-left: 100px;
   }
+
+  /* removed left margin  */
+
   .footer__logo {
     width: 105px;
     height: 39px;

@@ -1,23 +1,29 @@
+/* Added background-repeat and background-position */
 .menu{
     background-image: url(../images/background_menu.svg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 100px;
+    padding-bottom: 100px;  
 }
 
+/* Added fallback for font-family
+removed margin-top*/
 .menu__title{
-    font-family: "Inter"; 
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal; 
     font-weight: 500; 
     font-size: 44px; 
     line-height: 52px;
-    margin-top: 0px;
     margin: 0 auto 20px auto;
     text-align: center;
     
 }
 
+/* Added fallback to font-family */
 .menu__subtitle{
-    font-family: "Noto Serif"; 
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal; 
     font-weight: normal; 
     font-size: 20px; 
@@ -27,6 +33,8 @@
     text-align: center; 
 }
 
+/* removed margin bottom from menu__cards */
+
 .menu__cards {
     margin: 0;
     padding: 0;
@@ -35,23 +43,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
-    margin-bottom: 100px;
 }
 
-.cards{
-    list-style-type: none;
-    min-width: 570px;
-}
 
-.card__title{
-    font-size: large;
-}
-
-.card__list-item{
-    display: flex;
-}
-
-.menu__list-divider {
-    flex-grow: 1;
-    border-bottom: 1px black solid;
-}
+ /* created a stylesheet for card */

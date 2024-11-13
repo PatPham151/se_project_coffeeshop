@@ -1,0 +1,35 @@
+/* renamed from cards to card based on BEM naming convention 
+changed width to 540 from 570*/
+
+.card{
+    list-style-type: none;
+    width: 540px;
+    margin: 0;
+}
+
+/* added proper card title line height and font weight from brief */
+
+.card__title{
+    font-size: large;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 20px; 
+    line-height: 30px;
+}
+
+/* Added margin between the list items and also removed
+the last item margin and removed default margin from card */
+
+.card__list-item{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.card__list-item:nth-last-child(1){
+}
+
+.card__list-divider {
+    flex-grow: 1;
+    border-bottom: 1px black solid;
+}

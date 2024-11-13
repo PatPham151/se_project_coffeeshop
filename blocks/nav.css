@@ -12,8 +12,23 @@
     justify-content: space-between;
 }
 
+/* removed position absolute to let it follow padding 
+from the header.css */
+
+.nav__logo{
+    width: 105px;
+    height: 39px;
+}
+
+/* removed position absolute to let it follow padding 
+from the header.css */
+
+
+/* Added fallback to the font-family 
+removed default margin*/
+
 .nav__links{
-    font-family: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -22,24 +37,30 @@
     align-items: flex-start;
     column-gap: 20px;
     list-style-type: none;
-    position: absolute;
-    right: 80px;
-    top: 30px;
+    margin: 0;
 }
 
 .nav__link:hover{
     animation: hover .3s ease-in-out forwards; 
 }
 
+/* removed default text-decoration
+added fall back for font family*/
+
 .nav__link{
     color: black;
-    font-family: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
 }
+
+/* opacity changes on hover, key frame at the top 
+was set there as well */
 
 .nav__link:hover{
     color: blue;
+    opacity: 0.5;
 }
