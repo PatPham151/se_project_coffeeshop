@@ -9,16 +9,18 @@
 }
 
 /* Added fallback for font-family
-removed margin-top*/
+removed margin-top
+added max width - correct margin bottom*/
+
 .menu__title{
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal; 
     font-weight: 500; 
     font-size: 44px; 
     line-height: 52px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 24px auto;
     text-align: center;
-    
+    max-width: 780px;   
 }
 
 /* Added fallback to font-family */

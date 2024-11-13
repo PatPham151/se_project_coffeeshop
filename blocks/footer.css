@@ -22,8 +22,7 @@
     margin-bottom: 108px; 
   }
   
-  .footer__column_content_social {
-  }
+  /* removed empty selectors */
 
   /* removed left margin  */
 
@@ -46,6 +45,9 @@
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 20px;
+
+    /* Added align-items:center */
+
   }
   .footer__column-link {
     color: white;
@@ -54,6 +56,7 @@
     text-decoration: none;
     display: flex;
     gap: 10px;
+    align-items: center;
   }
   .footer__column-link:hover{
     color: #c1c1c1;

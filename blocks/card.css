@@ -8,26 +8,35 @@ changed width to 540 from 570*/
 }
 
 /* added proper card title line height and font weight from brief */
-
+/* reset margin, set bottom margin, removed duplciate font size */
 .card__title{
-    font-size: large;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal; 
     font-weight: bold; 
     font-size: 20px; 
     line-height: 30px;
+    margin: 0px;
+    margin-bottom: 32px;
 }
 
 /* Added margin between the list items and also removed
-the last item margin and removed default margin from card */
+the last item margin and removed default margin from card 
+added font family and fallback*/
 
 .card__list-item{
     display: flex;
     margin-bottom: 16px;
+    font-family: "Noto Serif", Arial, Helvetica, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 16px; 
+    line-height: 20px;
 }
 
-.card__list-item:nth-last-child(1){
-}
+/* changed last of type margin */
+.card__list-item:last-of-type {
+    margin-bottom: 0;
+    }
 
 .card__list-divider {
     flex-grow: 1;

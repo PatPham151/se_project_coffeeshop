@@ -48,10 +48,11 @@
         </nav>
         
         <h1 class="header__title">
-          Specialty Coffee 
-          <span class="header__span-accent">in the Triple Peaks library</span>
+          <span class="header__span-accent">Specialty Coffee</span> 
+          in the Triple Peaks library
         </h1>
         <!-- corrected span class -->
+         <!-- put 'specialty coffee' into the span and added display block -->
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
         </p>
@@ -63,12 +64,12 @@
         />
 
         <div class="header__footer">
-          <p class="header__paragraph">
-            Hours: <br>
-            Monday – Friday (10:00 – 19:00) <br>
-            Saturday – Sunday (11:00 – 18:00) <br> 
-          </p>
-
+            <div class="header__hours">
+                <p class="header__paragraph">Hours:</p>
+                <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+                <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+                </p>
+            </div>
           <!-- changed both into <p class = header__paragraph-->
 
           <p class="header__paragraph">
@@ -156,9 +157,13 @@
                         <fieldset class="form__fieldset">
                             <button type="submit" class="form__button">Book a table</button> 
                         </fieldset>
-        
-                        <fieldset class="form__fieldset-checkbox">
-                            <input type="checkbox" id="terms" class="form__checkbox" required>
+
+
+                        <!-- use form__fieldset for class name instead of 
+                         form__fieldset_checkbox.
+                         align checkbox and text-->
+                        <fieldset class="form__fieldset ">
+                            <input type="checkbox" id="terms" class="form__label_type_checkbox" required>
                             <label for="terms" class="form__label">I agree to the terms and conditions</label>
                             
                         </fieldset>
@@ -256,13 +261,20 @@
 
             
                 <div class="about__circle"></div>
-             <div class="about__circle_animation_blurred"></div>
+
+
+            <!-- Added class name one for element and one for modifier -->
+             <div class="about circle about__circle_animation-blurred"></div>
+             
     
 
         </section>
       </main>
       <footer class="footer">
-        <section class="footer__columns" id="contacts">
+
+
+        <!-- replaced section block with div as instructed, deleted id -->
+        <div class="footer__columns">
             <!-- The section is there so that the copyright can still be 
              inside the footer class without interfering with the position 
              of the social media and logo. If I remove it places the copy right
@@ -299,7 +311,7 @@
               </li>
             </ul>
           </div>
-        </section>
+        </div>
         <p class="footer__copyright">&copy; 2024 Pat Pham.</p>
 
       </footer>

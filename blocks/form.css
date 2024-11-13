@@ -1,3 +1,12 @@
+/* placed style for the block above all other elements */
+
+.form{
+    max-width: 385px;
+    border: none;
+}
+
+/* added fallback for font-family */
+
 .form__fieldset{
     margin: 0;
     padding: 0;
@@ -7,14 +16,16 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 32px;
+    text-align: center;
 }
 
 /* added fallback for font-family */
 
-.form{
-    max-width: 385px;
-    border: none;
-}
+/* added border-radius for button
+changed width to 100%
+height is removed and paddings added from brief
+border color and width is set*/
 
 .form__input{
     display: block;
@@ -29,13 +40,12 @@
     font-size: 20px;
     line-height: 30px;
     border-radius: 4px;
+    border: 1px solid #838383;
 }
 
-/* added fallback for font-family */
-
-/* added border-radius for button
-changed width to 100% 
-height is removed and paddings added from brief */
+.form__input ::placeholder{
+    color: #838383;
+}
 
 .form__button{
     width: 100%;
@@ -69,4 +79,9 @@ height is removed and paddings added from brief */
 
 .form__button:hover{
     background-color: #3f96f3;
+}
+
+.form__label_type_checkbox{
+    margin: 0;
+    margin-top: auto;
 }

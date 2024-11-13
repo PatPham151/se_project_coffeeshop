@@ -15,8 +15,11 @@
     background-color: #0A2850;
     overflow: hidden;
     position: relative;
-    padding: 40px;
+    padding: 100px 80px 173px;
 }
+
+/* padding has been changed to 
+correct numbers from brief */
 
 /* paddings have been added 
 height has been removed */
@@ -39,6 +42,8 @@ height has been removed */
     z-index: 0;
   }
 
+  /* removed position absolute */
+
 .about__title{
     z-index: 2;
     font-family: 'Inter', Arial, sans-serif;
@@ -47,7 +52,6 @@ height has been removed */
     line-height: 52px;
     color: white;
     max-width: 251px;
-    position: absolute;
     top: 100px;
     left: 80px;
     margin:0;
@@ -74,4 +78,10 @@ list-style-type: none;
 
 
 .about__paragraph{
+    margin-top: 0; 
+    margin-bottom: 20px;
+}
+
+.about__paragraph:last-child{
+    margin-bottom: 0px;
 }

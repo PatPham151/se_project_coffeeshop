@@ -10,37 +10,4 @@
 @import url(../blocks/footer.css);
 @import url(../blocks/card.css);
 
-/* Universal margin and padding reset */
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Ensures elements' width/height include padding/border */
-}
-
-/* Reset specific elements with default margins */
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
-    margin: 0;
-    padding: 0;
-}
-
-/* Reset default styles for lists */
-ul, ol {
-    list-style: none;
-}
-
-/* Example for heading margin reset and custom styling */
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 16px; /* Example margin value based on the brief */
-}
-
-/* Example for paragraphs */
-p {
-    margin-bottom: 16px; /* Example value from the brief */
-}
-
-/* Example for lists if required */
-ul {
-    margin-left: 20px; /* Specific margin for list */
-}
+/* removed  code */
