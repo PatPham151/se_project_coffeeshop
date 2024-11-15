@@ -1,5 +1,4 @@
-/* removed height 
-removed min and max height*/
+
 
 .reservation {
     background-image: url(../images/background_reservation.svg);
@@ -10,7 +9,7 @@ removed min and max height*/
     background-color: #D9E7FF;
 }
 
-/* remove fall back to font family */
+
 
 .reservation__title{
     margin: 0;
@@ -23,7 +22,7 @@ removed min and max height*/
     line-height: 52px;
 }
 
-/* Removed everything except external geometry */
+
 
 .reservation__form{
     margin: 0;
@@ -31,4 +30,3 @@ removed min and max height*/
     margin-left:auto;
 }
 
-/* moved mix class from form.css to reservation.css */

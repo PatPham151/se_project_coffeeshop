@@ -27,10 +27,6 @@ removed min-height and max-height*/
     margin-bottom: 24px;
 }
 
-/* Added fallback to the font family 
-reset margin*/
-
-/* corrected margin */
 
 .recipes__subtitle{
     max-width: 438px;
@@ -43,7 +39,7 @@ reset margin*/
     margin: 0 0 80px;
 }
 
-/* removed default padding */
+
 
 .recipes__videos{
     display: flex;
@@ -55,7 +51,6 @@ reset margin*/
     padding: 0;
 }
 
-/* removed default border */
 
 .recipes__iframe{
     width: 480px;
@@ -63,9 +58,6 @@ reset margin*/
     border: none;
 }
 
-/* added fall back to font family */
-/* I've addressed the resetting all default margins via the index.css 
-instead of doing it via individual block sheets */
 
 .recipes__video-caption{
     color: #ffffff;

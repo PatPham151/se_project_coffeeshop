@@ -18,11 +18,7 @@
     padding: 100px 80px 173px;
 }
 
-/* padding has been changed to 
-correct numbers from brief */
 
-/* paddings have been added 
-height has been removed */
 
 .about__circle{
   width: 426px;
@@ -35,14 +31,14 @@ height has been removed */
   z-index: 1
 }
 
-/* removed duplicate styles  */
+
 
 .about__circle_animation_blurred{
     animation: pulse 1.3s infinite ease-in-out;
     z-index: 0;
   }
 
-  /* removed position absolute */
+
 
 .about__title{
     z-index: 2;
@@ -57,7 +53,7 @@ height has been removed */
     margin:0;
 }
 
-/* added fallback to font family  */
+
 
 .about__content{
 z-index: 2;
@@ -74,7 +70,7 @@ color: white;
 list-style-type: none;
 }
 
-/* added fallback to font family  */
+
 
 
 .about__paragraph{

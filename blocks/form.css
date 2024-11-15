@@ -1,11 +1,11 @@
-/* placed style for the block above all other elements */
+
 
 .form{
     max-width: 385px;
     border: none;
 }
 
-/* added fallback for font-family */
+
 
 .form__fieldset{
     margin: 0;
@@ -24,13 +24,6 @@
     text-align: center;
     margin-top: 0;
 }
-
-/* added fallback for font-family */
-
-/* added border-radius for button
-changed width to 100%
-height is removed and paddings added from brief
-border color and width is set*/
 
 .form__input{
     display: block;
@@ -70,10 +63,7 @@ border color and width is set*/
     border-radius: 2px;
 }
 
-/* Added fall-back to font-family */
-/* Moved label to the left and and kept the terms and condition 
-in the center */
-/* removed form__fieldset-checkbox */
+
 
 
 .form__button:hover{

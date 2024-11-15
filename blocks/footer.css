@@ -22,9 +22,7 @@
     margin-bottom: 108px; 
   }
   
-  /* removed empty selectors */
-
-  /* removed left margin  */
+ 
 
   .footer__logo {
     width: 105px;
@@ -46,7 +44,7 @@
     font-size: 16px;
     line-height: 20px;
 
-    /* Added align-items:center */
+
 
   }
   .footer__column-link {

@@ -8,9 +8,6 @@
     padding-bottom: 100px;  
 }
 
-/* Added fallback for font-family
-removed margin-top
-added max width - correct margin bottom*/
 
 .menu__title{
     font-family: 'Inter', Arial, sans-serif;
@@ -23,7 +20,7 @@ added max width - correct margin bottom*/
     max-width: 780px;   
 }
 
-/* Added fallback to font-family */
+
 .menu__subtitle{
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal; 
@@ -35,7 +32,6 @@ added max width - correct margin bottom*/
     text-align: center; 
 }
 
-/* removed margin bottom from menu__cards */
 
 .menu__cards {
     margin: 0;
@@ -47,5 +43,3 @@ added max width - correct margin bottom*/
     gap: 100px;
 }
 
-
- /* created a stylesheet for card */

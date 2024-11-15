@@ -1,5 +1,4 @@
-/* removed min-height
-corrected to shorthand padding*/
+
 
 .header{
     display: flex;
@@ -13,10 +12,6 @@ corrected to shorthand padding*/
     z-index: 0;
 }
 
-/* Added fall back to font-family  */
-/* moved header above the span
-corrected to margin shorthand*/
-
 .header__title{
     color: #000000;
     font-family: 'Inter', Arial, sans-serif;
@@ -27,13 +22,6 @@ corrected to margin shorthand*/
     letter-spacing: -0.6px;
     margin: 183px 0 28px;
 }
-
-/* Set bottom margin & added fallback to font-family, removed
-the relative postion*/
-
-/* reset bottom margin & removed duplicate color */
-
-/* removed margin from .header__span-accent and set for header__title */
 
 .header__span-accent{
     max-width:729px;
@@ -47,9 +35,6 @@ the relative postion*/
     display: block;
 }
 
-/* Added fallback for font-family, removed position relative
-reset margin*/
-
 .header__description{
     max-width:683px;
     font-family: "Noto Serif", "Times New Roman", serif;
@@ -60,10 +45,6 @@ reset margin*/
     margin: 0;
 }
 
-/* removed margin from header_description as the margin from the
-header__title will have the 20px required from the brief
-changed z-index*/
-
 .header__image{
     position: absolute;
     top: 124px;
@@ -73,7 +54,7 @@ changed z-index*/
     z-index: -1;
 }
 
-/* added font weight */
+
 
 .header__footer{
     margin-top: auto;
@@ -85,26 +66,7 @@ changed z-index*/
     align-items: flex-end; 
 }
 
-
-/* replaced header footer hours and address altogether and repalced with
-header paragraph as instructed by reviewer */
-/* .header__footer-hours{
-    list-style: none;
-    margin: 0px;
-    position: relative;
-    bottom: 0px;
-    left: 40px;
-}
-
-.header__address{
-    position: absolute;
-    right: 80px;
-    bottom: 40px;
-    margin: 0;
-} */
-
 .header__paragraph{
     margin: 0;
 }
 
-/* added class for header__paragraph */
