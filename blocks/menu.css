@@ -1,37 +1,34 @@
 /* Added background-repeat and background-position */
-.menu{
+.menu {
     background-image: url(../images/background_menu.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 100px;
-    padding-bottom: 100px;  
+    padding-bottom: 100px;
 }
 
-
-.menu__title{
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal; 
-    font-weight: 500; 
-    font-size: 44px; 
+.menu__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
     line-height: 52px;
     margin: 0 auto 24px auto;
     text-align: center;
-    max-width: 780px;   
+    max-width: 780px;
 }
 
-
-.menu__subtitle{
+.menu__subtitle {
     font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: normal; 
-    font-weight: normal; 
-    font-size: 20px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
     line-height: 30px;
     max-width: 780px;
-    margin: 0 auto 100px auto; 
-    text-align: center; 
+    margin: 0 auto 100px auto;
+    text-align: center;
 }
-
 
 .menu__cards {
     margin: 0;
@@ -42,4 +39,3 @@
     justify-content: center;
     gap: 100px;
 }
-

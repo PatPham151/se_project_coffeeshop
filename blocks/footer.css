@@ -1,53 +1,48 @@
 @keyframes social-hover {
-    from{
+    from {
         opacity: 1;
     }
-    to{
+    to {
         opacity: 0.7;
     }
 }
 
 .footer {
     box-sizing: border-box;
-    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
     color: white;
     padding: 60px 80px;
-  }
-  
-  .footer__columns {
+}
+
+.footer__columns {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 108px; 
-  }
-  
- 
+    margin-bottom: 108px;
+}
 
-  .footer__logo {
+.footer__logo {
     width: 105px;
     height: 39px;
-  }
-  .footer__list {
-    list-style-type: none; 
+}
+.footer__list {
+    list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  .footer__list-item {
+}
+.footer__list-item {
     margin: 0 0 16px;
-  }
-  .footer__list-item:last-child{
+}
+.footer__list-item:last-child {
     margin-bottom: 0;
-  }
-  .footer__column-heading {
+}
+.footer__column-heading {
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 20px;
-
-
-
-  }
-  .footer__column-link {
+}
+.footer__column-link {
     color: white;
     font-size: 16px;
     line-height: 20px;
@@ -55,15 +50,15 @@
     display: flex;
     gap: 10px;
     align-items: center;
-  }
-  .footer__column-link:hover{
+}
+.footer__column-link:hover {
     color: #c1c1c1;
     animation: social-hover 0.3s ease-in-out forwards;
-  }
-  .footer__social-icon {
+}
+.footer__social-icon {
     height: 16px;
     width: 16px;
-  }
-  .footer__copyright {
+}
+.footer__copyright {
     margin: 0;
-  }
+}
