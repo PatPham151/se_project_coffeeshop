@@ -16,8 +16,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 32px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.form__fieldset:last-child{
     text-align: center;
+    margin-top: 0;
 }
 
 /* added fallback for font-family */
@@ -66,22 +71,19 @@ border color and width is set*/
 }
 
 /* Added fall-back to font-family */
+/* Moved label to the left and and kept the terms and condition 
+in the center */
+/* removed form__fieldset-checkbox */
 
-.form__fieldset-checkbox{
-    text-align: center;
-    border: none;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
 
 .form__button:hover{
     background-color: #3f96f3;
 }
 
+.form__label{
+    text-align: center;
+}
+
 .form__label_type_checkbox{
     margin: 0;
-    margin-top: auto;
 }

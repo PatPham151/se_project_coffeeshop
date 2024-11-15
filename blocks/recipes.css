@@ -30,6 +30,8 @@ removed min-height and max-height*/
 /* Added fallback to the font family 
 reset margin*/
 
+/* corrected margin */
+
 .recipes__subtitle{
     max-width: 438px;
     font-family: "Noto Serif", "Times New Roman", serif;
@@ -37,9 +39,8 @@ reset margin*/
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 80px;
     color: #ffffff;
-    margin: 0;
+    margin: 0 0 80px;
 }
 
 /* removed default padding */

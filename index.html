@@ -153,7 +153,9 @@
                             placeholder="Input your email"
                             required
                         />
-        
+                        <!-- moved fieldset closing tag to below email -->
+                        </fieldset>
+
                         <fieldset class="form__fieldset">
                             <button type="submit" class="form__button">Book a table</button> 
                         </fieldset>
@@ -162,11 +164,13 @@
                         <!-- use form__fieldset for class name instead of 
                          form__fieldset_checkbox.
                          align checkbox and text-->
+
+                         <!-- corrected class for input and label  -->
                         <fieldset class="form__fieldset ">
-                            <input type="checkbox" id="terms" class="form__label_type_checkbox" required>
-                            <label for="terms" class="form__label">I agree to the terms and conditions</label>
+                            <input type="checkbox" id="terms" class="form__checkbox" required>
+                            <label for="terms" class="form__label form__label_type_checkbox">I agree to the terms and conditions</label>
                             
-                        </fieldset>
+                        
                     </fieldset>
                 </form>
         </section>
@@ -264,7 +268,8 @@
 
 
             <!-- Added class name one for element and one for modifier -->
-             <div class="about circle about__circle_animation-blurred"></div>
+             <!-- corrected class name -->
+             <div class="about__circle about__circle_animation_blurred"></div>
              
     
 

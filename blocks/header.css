@@ -1,4 +1,5 @@
-/* removed min-height */
+/* removed min-height
+corrected to shorthand padding*/
 
 .header{
     display: flex;
@@ -8,34 +9,14 @@
     box-sizing: border-box;
     background-image: url(../images/background_header.svg);
     background-size: cover;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding: 30px 80px 40px;
     z-index: 0;
 }
 
-/* Set bottom margin & added fallback to font-family, removed 
-the relative postion*/
-
-/* reset bottom margin & removed duplicate color */
-
-.header__span-accent{
-    max-width:729px;
-    margin-top: 183px;
-    margin-bottom: 20px;
-    color:#3F96F3;
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 72px;
-    margin-bottom: 0;
-    display: block;
-}
-
-
 /* Added fall back to font-family  */
+/* moved header above the span
+corrected to margin shorthand*/
+
 .header__title{
     color: #000000;
     font-family: 'Inter', Arial, sans-serif;
@@ -44,9 +25,29 @@ the relative postion*/
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.6px;
+    margin: 183px 0 28px;
 }
 
-/* Added fallback for font-family, removed position relative 
+/* Set bottom margin & added fallback to font-family, removed
+the relative postion*/
+
+/* reset bottom margin & removed duplicate color */
+
+/* removed margin from .header__span-accent and set for header__title */
+
+.header__span-accent{
+    max-width:729px;
+    color:#3F96F3;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+
+    display: block;
+}
+
+/* Added fallback for font-family, removed position relative
 reset margin*/
 
 .header__description{
@@ -60,7 +61,7 @@ reset margin*/
 }
 
 /* removed margin from header_description as the margin from the
-header__title will have the 20px required from the brief  
+header__title will have the 20px required from the brief
 changed z-index*/
 
 .header__image{
@@ -72,16 +73,20 @@ changed z-index*/
     z-index: -1;
 }
 
+/* added font weight */
+
 .header__footer{
     margin-top: auto;
+    font-weight: 500;
     width: 100%;
     display: flex;
     color: #6F6F6F;
     justify-content: space-between;
+    align-items: flex-end; 
 }
 
 
-/* replaced header footer hours and address altogether and repalced with 
+/* replaced header footer hours and address altogether and repalced with
 header paragraph as instructed by reviewer */
 /* .header__footer-hours{
     list-style: none;
@@ -98,9 +103,8 @@ header paragraph as instructed by reviewer */
     margin: 0;
 } */
 
-.header__paragraph{ 
-    margin-top: auto;
-    margin: 0; 
+.header__paragraph{
+    margin: 0;
 }
 
 /* added class for header__paragraph */
